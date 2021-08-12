@@ -1,3 +1,11 @@
+'''
+@Author: Ayur Ninawe
+@Date: 2021-08-07
+@Last Modified by: Ayur Ninawe
+@Last Modified time: 17:00:47 2021-08-07
+@Title : Program to import data from given file to HBase table with happybase
+'''
+
 import happybase as hb
 from logger import logger
 import csv

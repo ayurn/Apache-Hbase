@@ -48,7 +48,7 @@ def put_csv_data_into_hbase():
     try:
         connection = connect_to_hbase()
         table = connection.table('wordcount')
-        input_file = csv.DictReader(open("/home/ayur/HadoopProgram/Hbase/HappyBase/wordcount_op"))
+        input_file = csv.DictReader(open("/home/ayur/HadoopProgram/Hbase/Happybase/wordcount_op"))
         for row in input_file:
             table.put(row['id'],
         {'cf1:String': row['word'],

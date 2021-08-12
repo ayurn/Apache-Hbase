@@ -1,0 +1,11 @@
+id,word,count
+1,HDFS,1
+2,Hadoop,2
+3,MapReduce,1
+4,a,2
+5,is,2
+6,of,2
+7,processing,1
+8,storage,1
+9,tool,1
+10,unit,1
